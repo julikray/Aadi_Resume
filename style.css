@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 10px 0 0 0;
+}
+
+/* Two Column Layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    padding: 15px;
+    min-width: 300px;
+}
+
+.left {
+    border-right: 2px solid #ddd;
+}
+
+.right {
+    padding-left: 30px;
+}
+
+/* Section Styles */
+section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+/* Work Experience List */
+.work-experience ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.work-experience li {
+    margin-bottom: 5px;
+}
